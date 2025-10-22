@@ -80,7 +80,7 @@
             </div>
             <div class="col-12">
                 <label class="form-label fw-semibold" for="genere">Genere</label>
-                <div><select class="form-select" name="" for="genere" id="genere">
+                <div><select class="form-select" name="" id="genere">
                     <option value="" selected disabled>Seleziona il genere</option>
                     <option value="1">fantascienza</option>
                     <option value="2">fantasy</option>
@@ -88,14 +88,17 @@
                 </div>
             </div>
             <div class="col-12">
-                <div>Anno di Pubblicazione</div>
+                <div><label class="form-label fw-semibold" for="data">Anno di pubblicazione</label>
+                    <input class="form-control" type="number" id="data" placeholder="Inserisci l'anno"></div>
             </div>
             <div class="col-12">
-                <div>ISBN&#35;</div>
+                <div><label class="form-label fw-semibold" for="isbn">ISBN&#35;</label>
+                    <input class="form-control" type="number" id="isbn" placeholder="Inserisci il codice ISBN&#35;" required></div>
             </div>
             <hr>
             <div class="col-12">
-                <div>Note</div>
+                <div><label for="note form-label" aria-placeholder="Inserisci eventuali note sul libro">Note</label>
+                <textarea class="form-control" id="note"></textarea></div>
             </div>
             <div>Checkbox</div>
             <div>Bottone</div>
